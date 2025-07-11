@@ -2,11 +2,11 @@
   "name": "tienda-digital-backend",
   "version": "1.0.0",
   "description": "Backend para tienda digital",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "echo 'Build completed'",
-    "dev": "nodemon index.js"
+    "start": "node server.js",
+    "build": "echo 'No build needed'",
+    "dev": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.0",
